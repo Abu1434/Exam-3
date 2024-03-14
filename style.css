@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.burger {
+    display: none;
+}
+
+nav {
+    background-color: #014E56;
+}
+
+.nav_logo img {
+    width: 160px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 761px;
+    padding: 73px;
+}
+
+.nav_items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav_item {
+    list-style-type: none;
+}
+
+.nav_item_link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+.navBtn {
+    width: 153px;
+    padding: 10px 0;
+    background: none;
+    border: 2px solid white;
+    color: #FFFFFF;
+    border-radius: 50px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+header {
+    background-color: #014E56;
+    height: 444px;
+}
+
+.row_2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 120px;
+}
+
+.header_left h3 {
+    width: 350px;
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.header_right p {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 44px;
+}
+
+main {
+    background-color: #004047;
+}
+
+.row_3 {
+    height: 645px;
+}
+
+.main_article h3 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 70px;
+}
+
+.main_cards {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 350px;
+    height: 274.73px;
+    background-color: #012F34;
+    text-align: center;
+}
+
+.card_img img {
+    margin-top: 44px;
+}
+
+.card_first_text {
+    margin-top: 23px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #79C8C7;
+}
+
+.card_second_text {
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.card_plus_btn {
+    margin-top: 20px;
+}
+
+section {
+    background-color: #012F34;
+    height: 355.66px;
+}
+
+.section_article {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 113px;
+}
+
+.section_imgs {
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+article {
+    background-color: #F67E7E;
+    height: 200px;
+}
+
+.row_5 {
+    display: flex;
+    justify-content: center;
+    gap: 260px;
+    padding-top: 76px;
+}
+
+.article_left {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #012F34;
+}
+
+.articleBtn {
+    width: 153px;
+    padding: 10px 0;
+    background: none;
+    border: 2px solid #012F34;
+    color: #012F34;
+    border-radius: 50px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+footer {
+    background-color: #002529;
+}
+
+.row_6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 845px;
+    padding: 48px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: white;
+    font-size: 24px;
+}
+
+.navBtn:hover {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #002529;
+    background-color: #FFFFFF;
+}
+
+.articleBtn:hover {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color: #012F34;
+}
+
+@media(max-width:769px) {
+    .row {
+        gap: 200px;
+    }
+
+    .row_2 {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .header_right p {
+        width: 402px;
+        margin-left: 100px;
+    }
+
+    .header_left {
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .main_cards {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        width: 281px;
+        height: 253px;
+    }
+
+    .card_img img {
+        margin-top: 32px;
+    }
+
+    .card_plus_btn {
+        margin-top: 12px;
+    }
+
+    .uni {
+        margin-top: 75px;
+    }
+
+    .row_3 {
+        height: 911px;
+    }
+
+    .row_4 {
+        height: 308px;
+    }
+
+    .section_article {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .section_imgs {
+        display: flex;
+        justify-content: center;
+        margin-top: 48px;
+        gap: 49px;
+    }
+
+    .img1 {
+        width: 103px;
+    }
+
+    .img2 {
+        width: 114px;
+    }
+
+    .img3 {
+        width: 112px;
+    }
+
+    .img4 {
+        width: 103px;
+    }
+    
+    .img5 {
+        width: 61px;
+    }
+
+    .row_5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 84px;
+    }
+
+    .article_left {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+    }
+
+    .row_6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 400px;
+        padding: 32px;
+    }
+}
+
+@media(max-width:376px) {
+   .nav_items {
+        display: none;
+   } 
+
+   .burger {
+        display: block;
+        color: #FFFFFF;
+        font-size: 20px;
+   }
+
+   .row {
+        padding-top: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 160px;
+   }
+
+   .row_2 {
+        flex-direction: column;
+        text-align: center;
+   }
+
+   .header_left h3 {
+        margin-left: 0px;
+        padding-top: 0px;
+        font-family: Livvic;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: center;    
+   }
+
+   .header_right p {
+        margin-left: 25px;
+        padding-top: 0px;
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+        width: 250px;
+   }
+
+   .main_cards {
+        margin-top: 0px;
+   }
+
+   .main_article h3 {
+        display: flex;
+        justify-content: center;
+        padding-top: 88px;
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;    
+   }
+
+   .row_3 {
+        flex-direction: column;
+        height: 1172px;
+   }
+
+   .card {
+        margin-top: 52px;
+        width: 327px;
+        height: 253px;
+   }
+
+   .uni {
+        margin-top: 52px;
+   }
+
+   section {
+        height: 550px;
+   }
+
+   .section_article h3 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+   }
+
+   .section_imgs {
+        margin-top: 52px;
+        margin-left: 65px;
+        flex-direction: column;
+        gap: 46px;
+   }
+
+   .img1 {
+        width: 146.56px;
+        margin-left: 10px;
+   }
+
+   .img2 {
+        width: 162.21px;
+        margin-left: 5px;
+   }
+
+   .img3 {
+        width: 159.37px;
+        margin-left: 7px;
+   }
+
+   .img4 {
+        width: 146.56px;
+        margin-left: 15px;
+   }
+
+   .img5 {
+        margin-left: 47px;
+        width: 86.8px;
+   }
+
+   article {
+        height: 302px;
+   }
+
+   .row_5 {
+        padding-top: 83px;
+        text-align: center;
+        flex-direction: column;
+        gap: 0px;
+   }
+
+   .article_left {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;    
+   }
+
+   .articleBtn {
+        margin-top: 25px;
+   }
+
+   .row_6 {
+        flex-direction: column;
+        gap: 0px;
+        padding: 70px;
+
+   }
+
+   .icons {
+        margin-top: 25px;
+   }
+}
